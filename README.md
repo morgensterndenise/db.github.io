@@ -1,1 +1,2 @@
 
+## Tips and good practices
