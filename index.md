@@ -1,8 +1,8 @@
 ---
 title: Index
-layout: template
+layout: page
 filename: index.md 
 --- 
-{{ content }}
+
 
 ## Tips and good practices
