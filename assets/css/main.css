@@ -109,9 +109,12 @@
 		.container {
 			width: 80rem;
 		}
-
 	}
-
+	.img-container {
+        text-align: center;
+        display: block;
+	  }
+	  
 	@media screen and (max-width: 1280px) {
 
 		.container.\31 25\25 {

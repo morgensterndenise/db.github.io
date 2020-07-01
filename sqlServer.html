@@ -1,79 +1,133 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>SQL Server</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="subpage">
 
-		<!-- Header -->
-			<header id="header">
-				<div class="logo"><a href="index.html">Tips and Tricks <span>by The Net!</span></a></div>
-				<a href="#menu">Menu</a>
+<head>
+	<title>SQL Server</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="subpage">
+
+	<!-- Header -->
+	<header id="header">
+		<div class="logo"><a href="index.html">Tips and Tricks <span>by The Net!</span></a></div>
+		<a href="#menu">Menu</a>
+	</header>
+
+	<!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="sqlServer.html">SQL Server</a></li>
+			<li><a href="generic.html">Generic</a></li>
+			<li><a href="elements.html">Elements</a></li>
+		</ul>
+	</nav>
+
+	<!-- One -->
+	<section id="One" class="wrapper style3">
+		<div class="inner">
+			<header class="align-center">
+				<p>Tips and Tricks</p>
+				<h2>SQL Server Performance</h2>
 			</header>
+		</div>
+	</section>
 
-		<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sqlServer.html">SQL Server</a></li>
-					<li><a href="generic.html">Generic</a></li>
-					<li><a href="elements.html">Elements</a></li>
-				</ul>
-			</nav>
-
-		<!-- One -->
-			<section id="One" class="wrapper style3">
-				<div class="inner">
+	<!-- Two -->
+	<section id="two" class="wrapper style2">
+		<div class="inner">
+			<div class="box">
+				<div class="content">
 					<header class="align-center">
-						<p>Tips and Tricks</p>
-						<h2>SQL Server Performance</h2>
+						<p>sql server
+							<br> <a href="https://www.jamasoftware.com/blog/debugging-sql-server-performance/"
+								target="_blank">original article url</a>
+
+						</p>
+						<h2>Debugging SQL Server Performance</h2>
 					</header>
-				</div>
-			</section>
-
-		<!-- Two -->
-			<section id="two" class="wrapper style2">
-				<div class="inner">
 					<div class="box">
-						<div class="content">
-							<header class="align-center">
-								<p>sql server</p>
-								<h2>Debugging SQL Server Performance</h2>
-							</header>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at dignissim augue, in iaculis neque. Etiam bibendum felis ac vulputate pellentesque. Cras non blandit quam. Nunc porta, est non posuere sagittis, neque nunc pellentesque diam, a iaculis lacus urna vitae purus. In non dui vel est tempor faucibus. Aliquam erat volutpat. Quisque vel est vitae nibh laoreet auctor. In nec libero dui. Nulla ullamcorper, dolor nec accumsan viverra, libero eros rutrum metus, vel lacinia magna odio non nunc. Praesent semper felis eu rhoncus aliquam. Donec at quam ac libero vestibulum pretium. Nunc faucibus vel arcu in malesuada. Aenean at velit odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas commodo erat eget molestie sollicitudin. Donec imperdiet, ex sed blandit dictum, ipsum metus ultrices arcu, vitae euismod nisl sapien vitae tortor.</p>
-
-							<p>Vivamus nec odio ac ligula congue feugiat at vitae leo. Aenean sem justo, finibus sed dui eu, accumsan facilisis dolor. Fusce quis dui eget odio iaculis aliquam vel sed velit. Nulla pellentesque posuere semper. Nulla eu sagittis lorem, a auctor nulla. Sed ac condimentum orci, ac varius ante. Nunc blandit quam sit amet sollicitudin sodales.</p>
-
-							<p>Vivamus ultricies mollis mauris quis molestie. Quisque eu mi velit. In et cursus nibh. Donec facilisis, orci sed mollis hendrerit, nunc risus mattis odio, eget efficitur nisl orci a lectus. Aenean finibus neque convallis orci sollicitudin tincidunt. Vivamus lacinia facilisis diam, quis facilisis nisi luctus nec. Aliquam ac molestie enim, ut ultrices elit. Fusce laoreet vulputate risus in tincidunt. Sed commodo mollis maximus. Nullam varius laoreet nibh sit amet facilisis. Donec ac odio vehicula, consequat elit et, sodales justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ac auctor mauris, in hendrerit libero. </p>
+						<div class="img-container">
+							<img src="images/serverConfig.png" alt="" style="width: 819px;"/>
 						</div>
 					</div>
-				</div>
-			</section>
+                  <p>
+					Make sure the database server is configured with enough resources, such as number of CPU cores, and amount of memory.
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
-				<div class="copyright">
-					&copy; Mirmeleonia. All rights reserved.
-				</div>
-			</footer>
+					To check the server configuration, you can open “System Information” view.
+				  </p>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+					<p>To check SQL Server memory setting,
 
-	</body>
+						Start SQL Server Management Studio.
+						Right-click on your database instance and select “Properties”.
+						Click on “Memory” table in the “Server Properties” pop-up window.
+						Check the memory settings.</p>
+						<div class="box">
+							<div class="img-container">
+								<img src="images/servProp.png" alt="" style="width: 819px;"/>
+							</div>
+						</div>
+						<h2>Make Sure Snapshot Mode Is On</h2>
+					<p>Make sure snapshot mode is turned on for the database. In order to prevent SQL Server from locking, the snapshot mode flag should be turned on. Run the following query to check if the flag is on:
+
+						SELECT is_read_committed_snapshot_on FROM sys.databases WHERE name= '<database_name>'
+						 
+						
+						If the query returns ‘1’, then the snapshot mode is already turned on. Otherwise, run the following query to turn it on.
+						
+						ALTER DATABASE <database_name> SET READ_COMMITTED_SNAPSHOT ON WITH ROLLBACK IMMEDIATE;</p>
+							<h2>Check Database Indexes</h2>
+					<p>Check the database indexes to make sure there are no missing indexes. Run the following query to list all all the indexes in the database (credit: tsql – List of all index & index columns in SQL Server DB – Stack Overflow):
+
+						SELECT
+							 t.name  TableName,
+							 col.name ColumnName,
+							 ind.name IndexName
+						FROM
+							 sys.indexes ind
+						INNER JOIN
+							 sys.index_columns ic ON  ind.object_id = ic.object_id and ind.index_id = ic.index_id
+						INNER JOIN
+							 sys.columns col ON ic.object_id = col.object_id and ic.column_id = col.column_id
+						INNER JOIN
+							 sys.tables t ON ind.object_id = t.object_id
+						WHERE
+							 (ind.is_primary_key = 0
+							 AND t.is_ms_shipped = 0)
+						ORDER BY
+							 t.name, col.name, ind.name
+						Save the query results to a text file with tab delimited columns so they can be imported into a spreadsheet application later.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="container">
+			<ul class="icons">
+				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+			</ul>
+		</div>
+		<div class="copyright">
+			&copy; Mirmeleonia. All rights reserved.
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
